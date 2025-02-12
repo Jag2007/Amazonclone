@@ -214,3 +214,62 @@ logo{
 .copyright{
     padding-top: 5px;
 }
+@media (max-width: 1200px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+    }
+    .nav-search {
+        width: 100%;
+    }
+    .shop-section .box {
+        width: 45%;
+    }
+}
+
+@media (max-width: 900px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-search {
+        width: 100%;
+    }
+    .shop-section .box {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-search {
+        width: 100%;
+    }
+    .shop-section .box {
+        width: 100%;
+        height: auto;
+    }
+    .hero-message {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-search {
+        width: 100%;
+    }
+    .shop-section .box {
+        width: 100%;
+        height: auto;
+    }
+    .hero-message {
+        font-size: 0.65rem;
+    }
+}
